@@ -1,0 +1,28 @@
+Package: oeis.tools
+Title: Access and Visualize Integer Sequences from the OEIS
+Version: 0.3.1
+Authors@R: 
+    person("Enrique", "Pérez Herrero", , "energycode.org@gmail.com", role = c("aut", "cre"))
+Description: Programmatic access, analysis, and visualization of integer
+    sequences from the On-Line Encyclopedia of Integer Sequences (OEIS)
+    <https://oeis.org>. Fetches sequence metadata and b-files, stores terms as
+    arbitrary-precision integers via 'gmp', and plots them with 'ggplot2'.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: en-US
+Depends: R (>= 4.1.0)
+Imports: httr2 (>= 0.2.0), jsonlite (>= 1.8.0), ggplot2 (>= 3.4.0), gmp
+        (>= 0.7-0)
+Suggests: testthat (>= 3.2.0), knitr, rmarkdown, lintr, IRdisplay,
+        withr
+URL: https://github.com/oeistools/oeis-tools-R
+BugReports: https://github.com/oeistools/oeis-tools-R/issues
+VignetteBuilder: knitr
+Config/roxygen2/version: 8.1.0
+Config/testthat/edition: 3
+NeedsCompilation: no
+Packaged: 2026-09-26 10:01:30 UTC; eph
+Author: Enrique Pérez Herrero [aut, cre]
+Maintainer: Enrique Pérez Herrero <energycode.org@gmail.com>
+Repository: CRAN
+Date/Publication: 2026-10-07 07:50:02 UTC
